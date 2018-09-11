@@ -1,6 +1,8 @@
 # gcp-enable-ssh
 Use:  modify script to fit your needs,   will have to at least set the network/vpc name
-
+      
+      Intended to run from a Google Cloud Console shell
+ 
 Purpose:
 
   Enable 
