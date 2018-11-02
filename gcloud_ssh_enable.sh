@@ -2,7 +2,7 @@
 #gcloud_ssh_enable.sh
 # Mark Patterson
 # mark@3labs.io
-# 4-49-2018
+# 11-02-2018
 # Script to empower GCP gcloud shell users to be secure via a whitelist and still have the ability to use ssh
 # Dynamically creates and updates firewall rules to allow ssh to work from the gcloud shell 
 # Also adds in the google ip ranges so the web console based ssh sessions will work as well
@@ -13,6 +13,7 @@
 
 
 #Modify the network and other settings as needed to match your use case
+#This script assumes that you are running it in the gcloud console from the target project
 #
 #Define FW Network/VPC name
 fw_net="change-me-never-use-default"
